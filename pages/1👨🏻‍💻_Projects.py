@@ -23,13 +23,13 @@ col1, col2, col3, col4, col5  = st.columns(5)
 space()
 space()
 
-image1 = Image.open('img\scania.jpg')
+image1 = Image.open('scania.jpg')
 col1.image(image1, width=280, caption='Scania Sensor Fault Detection')
 
-image2 = Image.open('img\search.png')
+image2 = Image.open('search.png')
 col3.image(image2, width=280, caption='REVERSE SEARCH ENGINE,IMAGE EMBEDDING')
 
-image3 = Image.open('img\Finance.jpg')
+image3 = Image.open('Finance.jpg')
 col5.image(image3, width=280, caption="Finance Complaint")
 
 

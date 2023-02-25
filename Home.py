@@ -1,13 +1,11 @@
 import streamlit as st
+import urllib.request
 from PIL import Image
 import os
 
 
 def space():
     st.markdown("<br>", unsafe_allow_html=True)
-
-
-
 
 st.set_page_config(
     page_title="Hello",
@@ -36,7 +34,7 @@ col1.markdown(
     """
 )
 
-image = Image.open('img\me.png')
+image = Image.open('me.png')
 col2.image(image, width=280)
 
 
