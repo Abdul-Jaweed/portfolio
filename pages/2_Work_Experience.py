@@ -45,7 +45,6 @@ st.markdown(
     ###### Problem statement : The Air Pressure System (APS) is a critical component of a heavy-duty vehicle that uses compressed air to force a piston to provide pressure to the brake pads, slowing the vehicle down. The benefits of using an APS instead of a hydraulic system are the easy availability and long-term sustainability of natural air. 
     ##### Tech: MLFlow, Python, Mongodb, Machine Learning, CICD, Github Actions, Docker, FastAPI
     - Fetch Streaming data through Kafka and store it to mongodb.
-    - Designed and Developed a web app to predict the insurance premium price.
     - Trained a Machine Learning Classification Model to predict accurate prediction.
     - Deployed a web app on AWS EC2 with cloud watch monitoring
     - Designed a continuous training pipeline using GitHub actions on remote machines and utilized an S3 bucket as a model registry.
